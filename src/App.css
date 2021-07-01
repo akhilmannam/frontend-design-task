@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
+
+.header,
+.courseinfo {
+	background-color: #05aff2;
+	color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-items {
+	padding: 0.75rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-title,
+.test-title {
+	font-family: "Raleway", sans-serif;
+	font-size: x-large;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width: 576px) {
+	.header-title,
+	.test-title {
+		font-family: "Raleway", sans-serif;
+		font-size: large;
+	}
 }
 
-.App-link {
-  color: #61dafb;
+.test {
+	background: linear-gradient(to right, #25e5fc, #03c4f7);
+	border-radius: 50px;
+	color: white;
+	justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title {
+	font-family: "Raleway", sans-serif;
+}
+
+.card-text {
+	font-family: "Open Sans", sans-serif;
+}
+
+.title {
+	font-family: "Raleway", sans-serif;
+	font-size: x-large !important;
+}
+
+.heading {
+	font-family: "Open Sans", sans-serif;
+	font-size: large !important;
+}
+
+.content {
+	font-family: "Open Sans", sans-serif;
+	font-size: medium !important;
+}
+
+@media screen and (max-width: 576px) {
+	.title {
+		font-size: large !important;
+	}
+
+	.heading {
+		font-size: medium !important;
+	}
+
+	.content {
+		font-size: small !important;
+	}
+}
+
+.button-2 {
+	width: 150px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px solid #09e1fe;
+	background-color: white;
+	margin-right: 1rem;
+}
+
+.steps {
+	font-family: "Raleway", sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 576px) {
+	.steps {
+		font-family: "Raleway", sans-serif;
+		font-size: 26px;
+		font-weight: 400;
+	}
+}
+
+.title-1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: x-large;
+}
+
+@media screen and (max-width: 576px) {
+	.title-1 {
+		font-size: large;
+	}
+}
+
+.button-3 {
+	width: 150px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px solid #09e1fe;
+	background-color: #09e1fe;
+	color: white;
+}
+
+.button-5 {
+	width: 150px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px solid white;
+	background-color: #09e1fe;
+	color: white;
+	margin-right: 1rem;
+}
+
+.course-main,
+.course-heading {
+	font-family: "Raleway", sans-serif;
+	font-size: 26px;
+}
+
+.header-content,
+.course-content,
+.news-content,
+.testimonial-content,
+.footer-content {
+	font-family: "Open Sans", sans-serif;
+	font-size: small;
+}
+
+.news {
+	font-family: "Raleway", sans-serif;
+	font-size: 32px;
+}
+
+.news-title {
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+}
+
+.testimonial-name {
+	color: gray;
+}
+
+.footer-heading {
+	font-family: "Open Sans", sans-serif;
+	font-size: large;
+}
+
+section.footer {
+	background-color: #05aff2;
+	color: white;
+	padding: 2rem;
+}
+
+a {
+	text-decoration: none;
+	color: white !important;
+}
+
+ul {
+	padding: 0 !important;
+}
+
+li {
+	list-style-type: none;
+}
+
+.colored {
+	background-color: #05aff2;
+	color: white;
+	border-radius: 10px;
+}
+
+.button-4 {
+	width: 150px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px solid white;
+	background-color: white;
+	color: #05aff2;
+}
+
+.button-4-header {
+	width: 100px;
+	padding: 5px;
+	border-radius: 25px;
+	border: 2px solid white;
+	background-color: white;
+	color: #05aff2;
 }
